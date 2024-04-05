@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Currency Converter</h1>
+    <div class="row">
+      <div class="col">
+        <select class="currency"> 
+        	<option>Select 1</option>
+        </select>
+        <input type="text" id="input_currency" name="">
+      </div>
+      <div class="col">
+        <select class="currency">
+        	<option>Select 2</option>
+        </select>
+        <input type="text" id="output_currency" disabled name="">
+      </div>
+    </div>
+    <button onClick="convert()">Convert</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
